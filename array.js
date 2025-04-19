@@ -22,5 +22,12 @@ console.log(printName)
 
 // add a new element in array
 names [len]='abir';
+// names[7]='rina'; [create emty elments in a array]
 console.log(names);
 
+
+//new array ()------------------------
+
+const newNames = new Array('Juwel','Hridoy','Akash');  
+console.log(newNames)
+console.log(newNames.length)
