@@ -9,4 +9,16 @@ names[1]='hridoy';
 
 // access the last element of a array
 let lastElement = names[names.length-1]
-console.log(lastElement)
+console.log(lastElement);
+
+
+// array looping
+let len = names.length;
+printName = '';
+for(i=0 ; i<len;i++){
+    printName+=names[i]+',';
+}
+console.log(printName)
+
+
+
