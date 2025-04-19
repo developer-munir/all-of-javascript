@@ -31,3 +31,4 @@ console.log(names);
 const newNames = new Array('Juwel','Hridoy','Akash');  
 console.log(newNames)
 console.log(newNames.length)
+console.log(typeof(newNames))
