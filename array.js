@@ -20,5 +20,7 @@ for(i=0 ; i<len;i++){
 }
 console.log(printName)
 
-
+// add a new element in array
+names [len]='abir';
+console.log(names);
 
