@@ -37,3 +37,15 @@ const getMaxNumber = [3,4,5,7];
 let getNum = (x) => Math.max(...x);
 // console.log(getNum(getMaxNumber));   This a one way
 
+
+// second way 
+let findLargeFunc = (x)=> {
+    let findLargeNum = [0];
+    for(let i = 0 ; i< x.length ; i ++ ) {
+        if(x[i] > i){
+            findLargeNum = x[i];
+        }
+    }
+    return findLargeNum;
+}
+console.log(findLargeFunc([3,5,6]));
