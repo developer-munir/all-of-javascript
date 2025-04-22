@@ -24,3 +24,16 @@ for(let i = 0 ; i < getNumbersLength ; i++){
     sum+= getNumbers;
 }
 // console.log(sum);
+
+// 4. Create a function that reverses an array
+
+const  names = [];
+names.push('JUwel' , 'Liza');
+// console.log(names.reverse())
+
+
+// find the maximum number in an array
+const getMaxNumber = [3,4,5,7];
+let getNum = (x) => Math.max(...x);
+// console.log(getNum(getMaxNumber));   This a one way
+
