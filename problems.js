@@ -48,4 +48,10 @@ let findLargeFunc = (x)=> {
     }
     return findLargeNum;
 }
-console.log(findLargeFunc([3,5,6]));
+// console.log(findLargeFunc([3,5,6]));
+
+
+// JavaScript program to reverse a given string. 
+
+const getRevString =  (input) => input.split('').reverse().join('') ;
+console.log(getRevString('Juwel'));
